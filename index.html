@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css" />
+    <title>Klook Travel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="77989a63f66dc09daa99ce5366958d15.jpg" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <img src="klook-logo-6D3F95D3AB-seeklogo.com.png" alt="logo" />
+        <ul>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Blogs</a></li>
+        </ul>
+        <button class="btn">Login / Register</button>
+    </nav>
+
+    <section id="showcase">
+
+        <img class="mySlides animate-right" src="pexels-photo-853199.jpeg">
+        <img class="mySlides animate-right" src="pexels-photo-1937402.jpeg">
+        <img class="mySlides animate-right" src="pexels-photo-879537.jpeg">
+        <img class="mySlides animate-right" src="pexels-photo-1008155.jpeg">
+
+        <div class="slider">
+            <button class="slider-btn btn-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="slider-btn btn-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+        <div class="container">
+            <div class="showcase-content">
+                <div class="dropdown text-primary">
+                    <label for="catagory">Travel Catagory</label>
+                    <select name="catagory" id="catagory">
+                        <option value="none">Not selected</option>
+                        <option value="normal">Normal</option>
+                        <option value="premium">Premium</option>
+                    </select>
+                </div>
+                <div class="dropdown text-primary">
+                    <label for="place">Place</label>
+                    <select name="place" id="place">
+                        <option value="none">Not selected</option>
+                        <option value="bali">Bali</option>
+                        <option value="paris">Paris</option>
+                    </select>
+                </div>
+                <div class="dropdown text-primary">
+                    <label for="days">Days</label>
+                    <input type="number" name="days" id="days" placeholder="Days" />
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages py-3 bg-dark">
+        <div class="container">
+            <div class="sort-bar">
+                <h2 class="text-primary">Trending Packages</h2>
+                <ul>
+                    <li><a href="#">Days</a></li>
+                    <li><a href="#">Budget</a></li>
+                    <li><a id="dif-bg" href="#">Filter</a></li>
+                </ul>
+            </div>
+            <div class="gallary">
+                <div class="pic"><img src="pexels-photo-1007901.jpeg" alt=""></div>
+                <div class="pic"><img src="pexels-photo-1008155.jpeg" alt=""></div>
+                <div class="pic"><img src="pexels-photo-1937402.jpeg" alt=""></div>
+                <div class="pic"><img src="pexels-photo-2265876.jpeg" alt=""></div>
+                <div class="pic"><img src="pexels-photo-2764743.jpeg" alt=""></div>
+                <div class="pic"><img src="pexels-photo-3722808.jpeg" alt=""></div>
+                <div class="pic"><img src="pexels-photo-853199.jpeg" alt=""></div>
+                <div class="pic"><img src="pexels-photo-879537.jpeg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <img src="klook_referral_discount_1479108886_91780ecf.jpg" alt="" srcset="">
+        <p>Klook Travel&copy; 2020, All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>
