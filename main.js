@@ -1,4 +1,4 @@
-var slideIndex = 0;
+let slideIndex = 0;
 showDivs(slideIndex);
 
 function plusDivs(n) {
@@ -6,8 +6,8 @@ function plusDivs(n) {
 }
 
 function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
+  let i;
+  let x = document.getElementsByClassName('yes');
   if (n > x.length) {
     slideIndex = 1;
   }
@@ -22,8 +22,8 @@ function showDivs(n) {
 carousel();
 
 function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
+  let i;
+  let x = document.getElementsByClassName('yes');
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
